@@ -1,6 +1,5 @@
-class Hardware:
+class Hardware(object):
     def __init__(self, ram, cpu):
         self.ram = ram
         self.cpu = cpu
-        print("Cpu: " + self.cpu + " RAM: " + self.ram)
         
