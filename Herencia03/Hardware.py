@@ -3,3 +3,5 @@ class Hardware(object):
         self.ram = ram
         self.cpu = cpu
         
+    def imprimirCaracteristicas(self):
+        print("Se posee " + self.ram + " GB de memoria interna junto a un procesador " + self.cpu)
